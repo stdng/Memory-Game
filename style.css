@@ -16,8 +16,8 @@ button {
 	display: flex;
 	height: 40px;
 	width: 100px;
-	bottom: 20%;
-	left: 46%;
+	bottom: -10%;
+	left: 43%;
 	border-radius: 5px;
 	font-size: 23px;
 	font-family: 'VT323', monospace;

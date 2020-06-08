@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
 });
 
 let count = 0;
+
 const cards = document.querySelectorAll('.memory-card');
 
 let hasFlippedCard = false;
@@ -76,6 +77,7 @@ let restart = document.querySelector('button');
 restart.addEventListener('click', function () {
   document.location.href = '';
 });
+
 
 if (count === 12) {
   alert('You Win!');
